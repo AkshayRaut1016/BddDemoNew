@@ -1,4 +1,4 @@
-package swagstep;
+package stepdefination;
 
 import org.openqa.selenium.WebDriver;
 

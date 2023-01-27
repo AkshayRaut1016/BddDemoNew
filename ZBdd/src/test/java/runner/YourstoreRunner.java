@@ -8,13 +8,9 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = {"Feature"},
-		glue = {"stepdefination"},
-        monochrome = true, tags = "@smoke"
-        )
-
-
-
-
-public class SwagRunner {
+		glue = {"stepdefination/YourstroeStep"},
+		monochrome = true,tags ="@smoke"
+		)
+public class YourstoreRunner {
 
 }
